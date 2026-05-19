@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Contact Us – Saral Rojgar | Get in Touch With Our Team</title>
+<meta name="description" content="Have questions about Saral Rojgar? Contact our support team. We help workers find jobs and businesses hire staff across India."/>
+<meta name="keywords" content="contact saral rojgar, saral rojgar support, job platform contact india"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://saralrojgar.com/contact.html"/>
+<meta property="og:url" content="https://saralrojgar.com/contact.html"/>
+<meta property="og:title" content="Contact Us – Saral Rojgar"/>
+<meta property="og:description" content="Reach out to Saral Rojgar for support, partnership, or any query."/>
+<meta property="og:image" content="https://saralrojgar.com/Saral_rojgar_Icon_1__2_.png"/>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="/style.css"/>
+<style>
+.contact-hero{background:var(--surface2);padding:4rem 2rem;text-align:center;border-bottom:1.5px solid var(--surface3);}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:3rem;align-items:start;}
+.contact-form{background:#fff;border-radius:var(--radius);padding:2rem;border:1.5px solid var(--surface3);box-shadow:var(--shadow);}
+.contact-form h3{font-family:'Baloo 2',cursive;font-weight:800;font-size:1.3rem;margin-bottom:1.2rem;}
+.form-group{margin-bottom:1.2rem;}
+.form-group label{display:block;font-weight:600;font-size:.88rem;color:var(--ink-mid);margin-bottom:.4rem;}
+.form-group input,.form-group textarea,.form-group select{width:100%;border:1.5px solid var(--surface3);border-radius:9px;padding:11px 14px;font-family:'Hind',sans-serif;font-size:.93rem;color:var(--ink);background:#fff;transition:border .2s;}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:none;border-color:var(--brand);}
+.form-group textarea{resize:vertical;min-height:110px;}
+.submit-btn{background:var(--brand);color:#fff;border:none;padding:13px;width:100%;border-radius:30px;font-family:'Hind',sans-serif;font-weight:700;font-size:.95rem;cursor:pointer;transition:.2s;}
+.submit-btn:hover{background:var(--brand-dark);}
+.contact-info h3{font-family:'Baloo 2',cursive;font-weight:800;font-size:1.5rem;color:var(--ink);margin-bottom:1rem;}
+.info-item{display:flex;gap:12px;margin-bottom:1.2rem;align-items:flex-start;}
+.info-icon{width:42px;height:42px;background:var(--brand-light);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.info-icon svg{width:20px;height:20px;fill:var(--brand);}
+.info-item h4{font-weight:600;font-size:.9rem;color:var(--ink);margin-bottom:2px;}
+.info-item p{font-size:.85rem;color:var(--ink-soft);}
+.map-placeholder{background:var(--surface2);border-radius:var(--radius);height:200px;display:flex;align-items:center;justify-content:center;border:1.5px dashed var(--surface3);margin-top:1.5rem;color:var(--ink-soft);}
+.toast{position:fixed;bottom:2rem;right:2rem;background:var(--brand);color:#fff;padding:14px 22px;border-radius:12px;font-weight:600;font-size:.9rem;box-shadow:0 8px 24px rgba(0,0,0,.2);transform:translateY(80px);opacity:0;transition:.4s cubic-bezier(.34,1.56,.64,1);z-index:999;}
+.toast.show{transform:translateY(0);opacity:1;}
+@media(max-width:768px){.contact-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div id="nav-placeholder"></div>
+<main>
+<div class="contact-hero">
+  <div class="container">
+    <div class="section-tag">Get in Touch</div>
+    <h1 class="section-title">Contact <em>Saral Rojgar</em></h1>
+    <p class="section-sub" style="margin:0 auto;">Have questions? Want to partner with us? We're here to help.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <div class="form-group"><label>Your Name *</label><input type="text" id="cf-name" placeholder="Enter your full name"/></div>
+        <div class="form-group"><label>Phone Number *</label><input type="tel" id="cf-phone" placeholder="+91 XXXXX XXXXX"/></div>
+        <div class="form-group"><label>Email Address</label><input type="email" id="cf-email" placeholder="your@email.com"/></div>
+        <div class="form-group"><label>I am a...</label>
+          <select id="cf-type">
+            <option value="">Select one</option>
+            <option>Job Seeker (Worker)</option>
+            <option>Employer / Business Owner</option>
+            <option>Partner / Investor</option>
+            <option>Press / Media</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group"><label>Message</label><textarea id="cf-msg" placeholder="How can we help you?"></textarea></div>
+        <button class="submit-btn" onclick="submitForm()">Send Message →</button>
+      </div>
+      <div class="contact-info">
+        <h3>Our Contact Details</h3>
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg></div>
+          <div><h4>Office Address</h4><p>Saral Rojgar Pvt. Ltd., Fyzabad, Uttar Pradesh, India</p></div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg></div>
+          <div><h4>Phone / WhatsApp</h4><p>+91 XXXXX XXXXX</p></div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+          <div><h4>Email</h4><p>support@saralrojgar.com</p></div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg></div>
+          <div><h4>Support Hours</h4><p>Monday – Saturday, 9 AM – 6 PM IST</p></div>
+        </div>
+        <div class="map-placeholder">📍 Fyzabad, Uttar Pradesh, India</div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<div id="footer-placeholder"></div>
+<div class="toast" id="toast">✅ Message sent! We'll get back to you soon.</div>
+<script src="/shared.js"></script>
+<script>
+initPage('nl-contact');
+function submitForm(){
+  const n=document.getElementById('cf-name').value.trim();
+  const p=document.getElementById('cf-phone').value.trim();
+  if(!n||!p){alert('Please fill in your name and phone number.');return;}
+  const t=document.getElementById('toast');
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),4000);
+  ['cf-name','cf-phone','cf-email','cf-msg','cf-type'].forEach(id=>document.getElementById(id).value='');
+}
+</script>
+</body>
+</html>
