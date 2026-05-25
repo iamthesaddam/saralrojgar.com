@@ -3,18 +3,16 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="icon" type="image/png" href="Saral_rojgar_Icon_1__2_.png">
-
 <title>Contact Us – Saral Rojgar | Get in Touch With Our Team</title>
 <meta name="description" content="Have questions about Saral Rojgar? Contact our support team. We help workers find jobs and businesses hire staff across India."/>
 <meta name="keywords" content="contact saral rojgar, saral rojgar support, job platform contact india"/>
 <meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://saralrojgar.com/contact.html"/>
-<meta property="og:url" content="https://saralrojgar.com/contact.html"/>
+<link rel="canonical" href="https://saralrojgar.com/contact"/>
+<meta property="og:url" content="https://saralrojgar.com/contact"/>
 <meta property="og:title" content="Contact Us – Saral Rojgar"/>
 <meta property="og:description" content="Reach out to Saral Rojgar for support, partnership, or any query."/>
 <meta property="og:image" content="https://saralrojgar.com/Saral_rojgar_Icon_1__2_.png"/>
-
+<link rel="icon" type="image/png" href="/Saral_rojgar_Icon_1__2_.png"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Hind:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="/style.css"/>
@@ -49,10 +47,9 @@
   <div class="container">
     <div class="section-tag">Get in Touch</div>
     <h1 class="section-title">Contact <em>Saral Rojgar</em></h1>
-    <p class="section-sub" style="margin:0 auto;">Have questions? Want to partner with us? We're here to help.</p>
+    <p class="section-sub" style="margin:0 auto;">Have questions? Want to partner with us? We're here to help — reach out anytime.</p>
   </div>
 </div>
-
 <section>
   <div class="container">
     <div class="contact-grid">
@@ -71,7 +68,7 @@
             <option>Other</option>
           </select>
         </div>
-        <div class="form-group"><label>Message</label><textarea id="cf-msg" placeholder="How can we help you?"></textarea></div>
+        <div class="form-group"><label>Message</label><textarea id="cf-msg" placeholder="Tell us how we can help you..."></textarea></div>
         <button class="submit-btn" onclick="submitForm()">Send Message →</button>
       </div>
       <div class="contact-info">
@@ -107,8 +104,7 @@ function submitForm(){
   const n=document.getElementById('cf-name').value.trim();
   const p=document.getElementById('cf-phone').value.trim();
   if(!n||!p){alert('Please fill in your name and phone number.');return;}
-  const t=document.getElementById('toast');
-  t.classList.add('show');
+  const t=document.getElementById('toast');t.classList.add('show');
   setTimeout(()=>t.classList.remove('show'),4000);
   ['cf-name','cf-phone','cf-email','cf-msg','cf-type'].forEach(id=>document.getElementById(id).value='');
 }
