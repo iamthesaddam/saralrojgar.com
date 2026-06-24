@@ -56,7 +56,7 @@ const FOOTER_HTML = `
         <ul>
           <li><a href="https://play.google.com/store/apps/details?id=com.ratnawnai.RatNawnAI" target="_blank">Google Play Store</a></li>
         </ul>
-        <p style="font-size:.8rem;opacity:.5;margin-top:.75rem;">© 2025 Saral Rojgar Pvt. Ltd.</p>
+        <p style="font-size:.8rem;opacity:.5;margin-top:.75rem;">© 2026 Saral Rojgar | Powered by Ratnawn Tech Pvt Ltd</p>
       </div>
     </div>
     <div class="footer-bottom">
