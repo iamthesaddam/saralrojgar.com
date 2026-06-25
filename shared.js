@@ -34,6 +34,8 @@ const FOOTER_HTML = `
       <div class="footer-brand">
         <img src="/Saral_rojgar_Icon_1__2_.png" alt="Saral Rojgar"/>
         <p>Simple jobs, real opportunities. Connecting India's workforce with small &amp; medium businesses.</p>
+<p style="font-size:.78rem;opacity:.6;margin-top:.5rem;">🏛️ GSTIN: 29AAPCR1099C1Z1</p>
+<p style="font-size:.78rem;opacity:.6;margin-top:.2rem;">🚀 Startup India: DIPP229452</p>
       </div>
       <div class="footer-col">
         <h4>Pages</h4>
@@ -56,11 +58,11 @@ const FOOTER_HTML = `
         <ul>
           <li><a href="https://play.google.com/store/apps/details?id=com.ratnawnai.RatNawnAI" target="_blank">Google Play Store</a></li>
         </ul>
-        <p style="font-size:.8rem;opacity:.5;margin-top:.75rem;">© 2026 Saral Rojgar | Powered by Ratnawn Tech Pvt Ltd</p>
+        <p style="font-size:.8rem;opacity:.5;margin-top:.75rem;">© 2026 Saral Rojgar | Powered by <a href="https://ratnawnai.com/" target="_blank" style="color:#fff;opacity:.7;">Ratnawn Tech Pvt Ltd</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Made with ❤️ for Bharat</span>
+      <span>Made with ❤️ for Bharat | GSTIN: 29AAPCR1099C1Z1 | Startup India: DIPP229452</span>
       <div class="footer-links">
         <a href="/privacy">Privacy Policy</a>
         <a href="/terms">Terms &amp; Conditions</a>
