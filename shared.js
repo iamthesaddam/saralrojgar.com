@@ -58,7 +58,7 @@ const FOOTER_HTML = `
         <ul>
           <li><a href="https://play.google.com/store/apps/details?id=com.ratnawnai.RatNawnAI" target="_blank">Google Play Store</a></li>
         </ul>
-        <li> style="font-size:.8rem;opacity:.5;margin-top:.75rem;">© 2026 Saral Rojgar | Powered by <a href="https://ratnawnai.com/" target="_blank" style="color:#fff;opacity:.7;">Ratnawn Tech Pvt Ltd</a></li>
+        <p style="font-size:.8rem;opacity:.5;margin-top:.75rem;">© 2026 Saral Rojgar | Powered by <a href="https://ratnawnai.com/" target="_blank" style="color:#fff;opacity:.7;">Ratnawn Tech Pvt Ltd</a></p>
       </div>
     </div>
     <div class="footer-bottom">
